@@ -112,3 +112,7 @@ API Docs 에서 todos(테이블 이름) 들어가서 필요 코드 가져오기
 데이터베이스 확인 (Supabase)
 
 ![image.png](attachment:8b1a5bd7-282e-44fa-8b88-bc2fb33d723d:image.png)
+
+
+https://www.notion.so/React_-TodoList-2f5c4baf3ec880e49f59cf15c856d396?source=copy_link
+노션 정리
