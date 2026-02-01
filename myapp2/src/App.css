@@ -1,0 +1,155 @@
+.app {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  background: rgba(30, 30, 30, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.app-title {
+  margin: 0 0 1.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.todo-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 0.6rem 0.85rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(20, 20, 20, 0.9);
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.todo-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.todo-input:focus {
+  outline: none;
+  border-color: #646cff;
+}
+
+.todo-input-edit {
+  margin-bottom: 0.5rem;
+}
+
+.todo-add-button {
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background: #646cff;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.todo-add-button:hover {
+  background: #535bf2;
+}
+
+.todo-list-container {
+  margin-top: 0.5rem;
+}
+
+.todo-empty-text {
+  margin: 0.75rem 0 0;
+  font-size: 0.9rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.todo-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.6rem 0.75rem;
+  border-radius: 10px;
+  background: rgba(45, 45, 45, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.todo-text {
+  flex: 1;
+  text-align: left;
+  word-break: break-word;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.todo-actions {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.todo-edit-form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.todo-edit-button,
+.todo-save-button,
+.todo-cancel-button,
+.todo-delete-button {
+  padding: 0.35rem 0.65rem;
+  font-size: 0.8rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.todo-edit-button {
+  background: rgba(100, 108, 255, 0.25);
+  color: #a8b0ff;
+}
+
+.todo-save-button {
+  background: rgba(88, 201, 124, 0.3);
+  color: #b8ffd0;
+}
+
+.todo-cancel-button {
+  background: rgba(160, 160, 160, 0.25);
+  color: #ddd;
+}
+
+.todo-delete-button {
+  background: rgba(255, 99, 132, 0.25);
+  color: #ffb8c8;
+}
+
+@media (max-width: 480px) {
+  .app {
+    margin: 0 1rem;
+    padding: 1.25rem 1rem;
+  }
+
+  .todo-form {
+    flex-direction: column;
+  }
+
+  .todo-add-button {
+    width: 100%;
+  }
+}
