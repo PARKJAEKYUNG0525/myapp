@@ -33,8 +33,6 @@ npm create vite@latest myapp -- --template react  // VsCode 터미널 이슈 문
 
 cd myapp → npm install, npm run dev
 
-![image.png](attachment:242e53d4-e8b4-495e-8ac8-bcc64fb82b42:image.png)
-
 public : 필요한 정보, 페이지 정보 저장(폰트 등등)
 
 src : 가장많이 사용하는 폴더 (컴포넌트,이미지)
@@ -79,8 +77,6 @@ create(생성) Read(조회) Update(수정) Delete(삭제)
 - 이벤트 처리 : 사용자 상호작용에 따른 상태 업데이트
 - 조건부 렌더링 : 상태에 따른 동적 UI 표시
 
-![image.png](attachment:0cc43875-e408-40c3-9884-66841731fdb6:image.png)
-
 - `inputValue` → 현재 입력값 (상태 값)
 - `setInputValue` → 그 값을 바꾸는 함수
 - `useState('')` → 초기값을 빈 문자열로 설정
@@ -103,16 +99,8 @@ API Docs 에서 todos(테이블 이름) 들어가서 필요 코드 가져오기
 
 정책 이슈로  Create policy 해서 만들어서 해야함 → using true 입력
 
-![image.png](attachment:5a0361e9-835b-42ae-bea2-b036c548ac84:image.png)
-
-결과물
-
-![image.png](attachment:892e4e4b-1a31-4523-ad3e-611e14bdd465:image.png)
 
 데이터베이스 확인 (Supabase)
-
-![image.png](attachment:8b1a5bd7-282e-44fa-8b88-bc2fb33d723d:image.png)
-
 
 https://www.notion.so/React_-TodoList-2f5c4baf3ec880e49f59cf15c856d396?source=copy_link
 노션 정리
